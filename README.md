@@ -1,2 +1,5 @@
-# my-first-project
-This is my first-hand project with PORATech and I created this repo as the first assignment given to us.
+#My First Project
+
+This is my first project in the JavaScript Full Stack track with PORATech Academy.
+
+My name is Adio Jeremiah and I am a Software Developer in training.
