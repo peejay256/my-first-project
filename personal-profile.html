@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Profile Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jeremiah's Profile</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact me</a>
+      </nav>
+    </header>
+    <section id="About">
+      <h1>About Me</h1>
+      <img src="./assets/DSC_7774.JPG~3.jpg" alt="A picture of Adio Jeremiah" />
+      <p>
+        My name is Jeremiah Adio, I am a student of PORA tech Academy Cohort 8 -
+        JS Full Stack Software Engineering with AI. I am a Christian and I have
+        some months of smartphone graphics design; although I am not actively
+        designing.
+      </p>
+    </section>
+    <section id="Contact">
+      <h2>Contact Me</h2>
+      <form>
+        <p>You can contact me by filling this form:</p>
+        <label for="firstname"> Firstname: </label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Enter your firstname"
+          required
+        /><br />
+        <label for="lastname"> Lastname: </label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Enter your lastname"
+          required
+        /><br />
+
+        <label for="email"> Email Address: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required
+        /><br />
+
+        <label> Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male"> Male </label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female"> Female </label>
+        <br />
+
+        <label for="options"> State of Residence: </label>
+        <input type="text" name="state" id="state" />
+        <br />
+        <label for="message">Message to me:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="button" class="btn" value="Submit" />
+      </form>
+      <br />
+    </section>
+    <br />
+    <br />
+    <footer>
+      <h3>Contact Information</h3>
+      <ul>
+        <li>Email Address: jeremiahadio256@gmail.com</li>
+        <li>Facebook Handle: Pee Jay (Praise Of God)</li>
+        <li>Instagram Handle: i_am_peejay256</li>
+      </ul>
+      Built by Pee Jay &copy; 2026. All rights reserved.
+    </footer>
+  </body>
+</html>
